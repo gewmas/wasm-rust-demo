@@ -5,6 +5,12 @@ pub fn add_numbers(a: i32, b: i32) -> i32 {
     a + b
 }
 
+#[wasm_bindgen]
+pub fn multiply_numbers(a: i32, b: i32) -> i32 {
+    a * b
+}
+
+
 // pub fn add(left: u64, right: u64) -> u64 {
 //     left + right
 // }
